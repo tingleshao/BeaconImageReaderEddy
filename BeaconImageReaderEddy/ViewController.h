@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <opencv2/opencv.hpp>
 
 @interface ViewController : UIViewController
+
+@property (nonatomic, retain) NSString *theURL;
 
 
 @end
